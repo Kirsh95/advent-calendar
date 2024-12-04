@@ -86,15 +86,6 @@
       width: 100%;
       display: block;
     }
-
-    @media screen and (width >= 666px) {
-        body{
-            padding: 0 24px;
-        }
-        
-    }
-
-
     .advent .home{
         position: relative;
     }
@@ -122,7 +113,7 @@
        border-radius: 10px;
     }
     .advent .home .home_items:hover:active{
-        box-shadow: inset 5em 1em rgb(55, 55, 55);;
+        box-shadow: inset 140em 0em rgb(106, 106, 106);;
 
     }
     .advent .home .home_block{
