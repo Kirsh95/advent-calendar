@@ -172,6 +172,7 @@
     .advent .wrapping,
     .advent .print_photo,
     .advent .tree,
+    .advent .event,
     .advent .decorate_house,
     .advent .cookies{
         display: grid;
