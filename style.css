@@ -1,218 +1,250 @@
 .product__description.base-padding {
+  padding: 0;
+  border-radius: 0px;
+  }
+  .advent img {
+    margin: 0;
+  }
+  .advent .description {
     padding: 0;
-    border-radius: 0px;
-    }
-    .advent img {
-      margin: 0;
-    }
-    .advent .description {
-      padding: 0;
-      margin: 0;
-      color: #000;
-      font-family: 'Roboto' ,sans-serif;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 130%;
-    }.advent a{
-        text-decoration: none;
-    }
-    .advent .title {
-      color: #000;
-      font-family: 'Roboto',sans-serif;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 130%;
-      margin: 0;
-      margin-bottom: 14px;
-    }
-    .advent .big_title {
-      color: #000;
-      font-family: 'Roboto',sans-serif;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 130%;
-      margin: 0;
-      margin-bottom: 12px;
-    }
-    .advent ul {
-      list-style: disc;
-      margin: 0;
-    }
-    .advent ul li {
-      line-height: normal;
-      color: #000;
-      font-family: 'Roboto',sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 130%;
-    }
-    .advent {
-      overflow: hidden;
-    }
-    body {
-      padding: 0;
-      margin: 0;
-        background: #0c0e0d;
-    }
-    .advent ul {
-      padding: 0;
-      padding-left: 20px;
-    }
-    .advent ul li {
-      padding: 0;
-    }
-    .advent div {
-      padding: 0;
-    }
-    div.advent {
-      padding: 0;
-    }
-    .advent br {
-      display: block;
-    }
-    .product__body .el-tabs__header {
-      z-index: 6;
-    }
-    .advent{
-      max-width: 400px;
-      margin: 0 auto;
-      overflow-x: hidden;
-    }
-    .advent img{
-      width: 100%;
-      display: block;
-    }
-    .advent .home{
-        position: relative;
-    }
-    .advent .home #home_img{
-        position: absolute;
-        z-index: 1;margin: 0;
-
-        top: 0;
-        left: 0;
-    }
-
-    .advent .home .home_container{
-        padding: 150px 10px 150px;
-        display: grid;
-        gap: 40px;
-        z-index: 2;
-        position: relative;
-    }
-    .advent .home .home_items{
-        background: linear-gradient(180deg, rgba(115,120,124,1) 1%, rgba(115,120,124,0.6489189425770308) 60%);
-        display: grid;
-        align-items: center;
-        text-align: center;
-       height: 100px;
-       border-radius: 10px;
-    }
-    .advent .home .home_items:hover:active{
-        box-shadow: inset 140em 0em #2a3526;;
-
-    }
-    .advent .home .home_block{
-        display: grid;
-        align-items: stretch;
-        gap: 10px;
-
-    }
-    .advent .home .home_block:nth-child(1){
-        grid-template-columns: repeat(4,1fr);
-    }
-    .advent .home .home_block:nth-child(1) .home_items:nth-child(1) .description:nth-child(1){
-        font-size: 11px;
-        }
-
-    .advent .home .home_block:nth-child(2){
-        grid-template-columns: repeat(3,1fr);
-        padding: 0 30px;
-    }
-    .advent .home .home_block:nth-child(3){
-        grid-template-columns: repeat(4,1fr);
-    }
-
-
-
-    .advent .advent_buttom{
-        position: relative;
-    }
-    .advent .advent_buttom .button_luna{
-        width: 100px;
-        position: absolute;
-        top: 58%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-
-    .advent .movie_buttom{
-        position: relative;
-    }
-    .advent .movie_buttom .movie_rozetka{
-        width: 80px;
-        position: absolute;
-        top: 48%;
-        left: 73%;
-        transform: translate(-50%,-50%);
-    }
-    .advent .movie_buttom .movie_ali{
-        width: 80px;
-        position: absolute;
-        top: 50%;
-        left: 57%;
-        transform: translate(-50%,-50%);
-    }
-    .advent .uwind,
-    .advent .movie,
-    .advent .wrapping,
-    .advent .print_photo,
-    .advent .tree,
-    .advent .event,
-    .advent .decorate_house,
-    .advent .cookies{
-        display: grid;
-        gap: 5px;
-        background: #000;
-    }
-
-
- .advent .holiday_block{
-    position: relative;
-    padding-top: 30px;
-    background: #fff;
+    margin: 0;
+    color: #000;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }.advent a{
+      text-decoration: none;
   }
-  .advent .holiday_block .holiday_items{
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding: 20px 10px 30px;
-    gap: 24px;
+  .advent .title {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 14px;
   }
-  .advent .holiday_block .santa_img{
-    position: absolute;
-    width: 190px;
-    bottom: 0;
-    left: 0;
+  .advent .big_title {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 12px;
   }
-
-
-  .advent .holiday_container a:hover:active{
-    background: #0000004a;
+  .advent ul {
+    list-style: disc;
+    margin: 0;
   }
-
-  .advent .holiday_container .description{
-    text-align: center;
-    width: 50%;
+  .advent ul li {
+    line-height: normal;
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .advent {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+      background: #0c0e0d;
+  }
+  .advent ul {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .advent ul li {
+    padding: 0;
+  }
+  .advent div {
+    padding: 0;
+  }
+  div.advent {
+    padding: 0;
+  }
+  .advent br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+  .advent{
+    max-width: 500px;
     margin: 0 auto;
-    color: #252629;
-    border-radius: 10px;
-    padding: 15px;
-    background: linear-gradient(180deg, rgba(233,237,240,1) 39%, rgba(233,237,240,0.6153054971988796) 90%);
-    font-size: 16px;
-    font-family: "Edu AU VIC WA NT Hand", cursive;;
+    overflow-x: hidden;
+  }
+  .advent img{
+    width: 100%;
+    display: block;
+  }
+  .advent .home{
+      position: relative;
+  }
+  .advent .home #home_img{
+      position: absolute;
+      z-index: 1;margin: 0;
+
+      top: 0;
+      left: 0;
+  }
+
+  .advent .home .home_container{
+      padding: 150px 10px 150px;
+      display: grid;
+      gap: 40px;
+      z-index: 2;
+      position: relative;
+  }
+  .advent .home .home_items{
+      background: linear-gradient(180deg, rgba(115,120,124,1) 1%, rgba(115,120,124,0.6489189425770308) 60%);
+      display: grid;
+      align-items: center;
+      text-align: center;
+     height: 100px;
+     border-radius: 10px;
+  }
+  .advent .home .home_items:hover:active{
+      box-shadow: inset 140em 0em #2a3526;;
+
+  }
+  .advent .home .home_block{
+      display: grid;
+      align-items: stretch;
+      gap: 10px;
+
+  }
+  .advent .home .home_block:nth-child(1){
+      grid-template-columns: repeat(4,1fr);
+  }
+  .advent .home .home_block:nth-child(1) .home_items:nth-child(1) .description:nth-child(1){
+      font-size: 11px;
+      }
+
+  .advent .home .home_block:nth-child(2){
+      grid-template-columns: repeat(3,1fr);
+      padding: 0 30px;
+  }
+  .advent .home .home_block:nth-child(3){
+      grid-template-columns: repeat(4,1fr);
+  }
+
+
+
+  .advent .advent_buttom{
+      position: relative;
+  }
+  .advent .advent_buttom .button_luna{
+      width: 100px;
+      position: absolute;
+      top: 58%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+
+  .advent .movie_buttom{
+      position: relative;
+  }
+  .advent .movie_buttom .movie_rozetka{
+      width: 80px;
+      position: absolute;
+      top: 48%;
+      left: 73%;
+      transform: translate(-50%,-50%);
+  }
+  .advent .movie_buttom .movie_ali{
+      width: 80px;
+      position: absolute;
+      top: 50%;
+      left: 57%;
+      transform: translate(-50%,-50%);
+  }
+  .advent .uwind,
+  .advent .movie,
+  .advent .wrapping,
+  .advent .print_photo,
+  .advent .tree,
+  .advent .event,
+  .advent .decorate_house,
+  .advent .cookies{
+      display: grid;
+      gap: 5px;
+      background: #000;
+  }
+
+
+  .advent .cookies{
+    position: relative;
+  }
+  .advent .cookies a{
+    position: absolute;
+    bottom: -180px;
+    left: 110px;
+    width: 300px;
+  }
+  .advent .santa{
+    position: relative;
+  }
+  .advent .santa a{
+    position: absolute;
+    width: 100px;
+    right: 117px;
+    height: 60px;
+    bottom: 81px;
+  }
+
+  .advent .holiday_photos .block{
+    position: relative;
+  }
+
+  /* .advent .holiday_photos .block a::before{
+    content: "→";
+    position: absolute;
+    top: 0; left:0;
+    width: 20px;
+    height: 20px;
+  } */
+
+  .advent .holiday_photos .block a:nth-child(2){
+    top: 19%;
+    left: 12%;
+    position: absolute;
+    width: 110px;
+    height: 160px;
+  }
+  .advent .holiday_photos .block a:nth-child(3){
+    top: 19%;
+    right: 16%;
+    position: absolute;
+    width: 110px;
+    height: 160px;
+  }
+  .advent .holiday_photos .block a:nth-child(4){
+    top: 47%;
+    left: 12%;
+    position: absolute;
+    width: 110px;
+    height: 160px;
+  }
+  .advent .holiday_photos .block a:nth-child(5){
+    top: 47%;
+    right: 16%;
+    position: absolute;
+    width: 110px;
+    height: 160px;
+  }
+  .advent .holiday_photos .block a:nth-child(6){
+    top: 74%;
+    right: 16%;
+    position: absolute;
+    width: 110px;
+    height: 160px;
   }
