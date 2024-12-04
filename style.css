@@ -179,3 +179,40 @@
         gap: 5px;
         background: #000;
     }
+
+
+ .advent .holiday_block{
+    position: relative;
+    padding-top: 30px;
+    background: #fff;
+  }
+  .advent .holiday_block .holiday_items{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 10px 30px;
+    gap: 24px;
+  }
+  .advent .holiday_block .santa_img{
+    position: absolute;
+    width: 190px;
+    bottom: 0;
+    left: 0;
+  }
+
+
+  .advent .holiday_container a:hover:active{
+    background: #0000004a;
+  }
+
+  .advent .holiday_container .description{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: #252629;
+    border-radius: 10px;
+    padding: 15px;
+    background: linear-gradient(180deg, rgba(233,237,240,1) 39%, rgba(233,237,240,0.6153054971988796) 90%);
+    font-size: 16px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;;
+  }
