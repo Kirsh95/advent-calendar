@@ -77,9 +77,10 @@
       z-index: 6;
     }
     .advent{
-      max-width: 500px;
+      max-width: 1366px;
       margin: 0 auto;
       overflow-x: hidden;
+      background: #000;
     }
     .advent img{
       width: 100%;
