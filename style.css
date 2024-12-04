@@ -113,7 +113,7 @@
        border-radius: 10px;
     }
     .advent .home .home_items:hover:active{
-        box-shadow: inset 140em 0em rgb(106, 106, 106);;
+        box-shadow: inset 140em 0em #2a3526;;
 
     }
     .advent .home .home_block{
