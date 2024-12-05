@@ -248,3 +248,84 @@
     width: 110px;
     height: 160px;
   }
+
+  .advent .event .event_block_one{
+    position: relative;
+  }
+  .advent .event .event_block_one .event_item a:nth-child(1){
+    position: absolute;
+    width: 100px;
+    top: 27.5%;
+    right:20px ;
+  }
+  .advent .event .event_block_one .event_item a:nth-child(2){
+    position: absolute;
+    width: 100px;
+    top: 35%;
+    right:55px ;
+  }
+  .advent .event .event_block_one .event_item a:nth-child(3){
+    position: absolute;
+    width: 100px;
+    top: 42%;
+    right:30px ;
+  }
+  .advent .event .event_block_one .event_item a:nth-child(4){
+    position: absolute;
+    width: 100px;
+    top: 49.5%;
+    right:5px ;
+  }
+
+
+  .advent .event .event_block_two{
+    position: relative;
+  }
+  .advent .event .event_block_two .event_item a:nth-child(1){
+    position: absolute;
+    width: 100px;
+    top: 25%;
+    right:50px ;
+  }
+  .advent .event .event_block_two .event_item a:nth-child(2){
+    position: absolute;
+    width: 100px;
+    top: 31.5%;
+    right:100px ;
+  }
+  .advent .event .event_block_two .event_item a:nth-child(3){
+    position: absolute;
+    width: 100px;
+    top: 38%;
+    right:100px ;
+  }
+  .advent .event .event_block_two .event_item a:nth-child(4){
+    position: absolute;
+    width: 100px;
+    top: 45%;
+    right:35px ;
+  }
+
+
+
+  .advent .event .event_block_tree{
+    position: relative;
+  }
+  .advent .event .event_block_tree .event_item a:nth-child(1){
+    position: absolute;
+    width: 100px;
+    top: 24%;
+    right:15px ;
+  }
+  .advent .event .event_block_tree .event_item a:nth-child(2){
+    position: absolute;
+    width: 100px;
+    top: 36.4%;
+    right:95px ;
+  }
+  .advent .event .event_block_tree .event_item a:nth-child(3){
+    position: absolute;
+    width: 100px;
+    top: 50%;
+    right:15px ;
+  }
